@@ -1,5 +1,5 @@
 {
-  "name": "openstackci-unattended_upgrades",
+  "name": "openstackinfra-unattended_upgrades",
   "version": "0.0.1",
   "author": "OpenStack CI",
   "summary": "Puppet module for Unattended Upgrades",
