@@ -2,7 +2,7 @@
 #
 class unattended_upgrades(
   $ensure = present,
-  $origins = []
+  $origins = [],
 ) {
   package { 'unattended-upgrades':
     ensure => $ensure,
