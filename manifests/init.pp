@@ -1,7 +1,7 @@
 # == Class: unattended_upgrades
 #
 class unattended_upgrades(
-  $ensure = present,
+  $ensure  = present,
   $origins = [],
 ) {
   package { 'unattended-upgrades':
